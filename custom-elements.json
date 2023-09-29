@@ -1,0 +1,99 @@
+{
+  "schemaVersion": "1.0.0",
+  "readme": "",
+  "modules": [
+    {
+      "kind": "javascript-module",
+      "path": "index.js",
+      "declarations": [],
+      "exports": [
+        {
+          "kind": "js",
+          "name": "Wc1",
+          "declaration": {
+            "name": "Wc1",
+            "module": "./src/Wc1.js"
+          }
+        }
+      ]
+    },
+    {
+      "kind": "javascript-module",
+      "path": "wc-1.js",
+      "declarations": [],
+      "exports": [
+        {
+          "kind": "custom-element-definition",
+          "name": "wc-1",
+          "declaration": {
+            "name": "Wc1",
+            "module": "/src/Wc1.js"
+          }
+        }
+      ]
+    },
+    {
+      "kind": "javascript-module",
+      "path": "src/Wc1.js",
+      "declarations": [
+        {
+          "kind": "class",
+          "description": "",
+          "name": "Wc1",
+          "members": [
+            {
+              "kind": "method",
+              "name": "__increment"
+            },
+            {
+              "kind": "field",
+              "name": "header",
+              "type": {
+                "text": "string"
+              },
+              "default": "'Hey there'",
+              "privacy": "public",
+              "attribute": "header"
+            },
+            {
+              "kind": "field",
+              "name": "counter",
+              "type": {
+                "text": "number"
+              },
+              "default": "5",
+              "privacy": "public",
+              "attribute": "counter"
+            }
+          ],
+          "attributes": [
+            {
+              "name": "header",
+              "fieldName": "header"
+            },
+            {
+              "name": "counter",
+              "fieldName": "counter"
+            }
+          ],
+          "superclass": {
+            "name": "LitElement",
+            "package": "lit"
+          },
+          "tagName": "wc-1",
+          "customElement": true
+        }
+      ],
+      "exports": [
+        {
+          "kind": "js",
+          "name": "Wc1",
+          "declaration": {
+            "name": "Wc1",
+            "module": "src/Wc1.js"
+          }
+        }
+      ]
+    }
+  ]
+}
